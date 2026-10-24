@@ -1,0 +1,20 @@
+replicaCount: 7
+
+name: static-deploy
+
+image:
+  name: static-container
+  repository: sumukha47/neon-carbon
+  tag: "latest"
+
+containerPort: 80
+
+podLabels:
+  app: static-app
+
+serviceName: my-svc
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
