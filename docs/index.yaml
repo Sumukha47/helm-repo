@@ -3,7 +3,7 @@ entries:
   static-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-24T14:01:11.4525784+05:30"
+    created: "2026-10-24T17:37:08.8914283+05:30"
     description: A Helm chart for Kubernetes
     digest: 4bc8eb2f2b322840247920d298c55d5a2cd319a359d80d8c1de9e9bb7520ba8d
     name: static-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://sumukha47.github.io/helm-repo/static-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-24T14:01:11.4463159+05:30"
+generated: "2026-10-24T17:37:08.8902227+05:30"
